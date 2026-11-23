@@ -5,31 +5,21 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>턴나우 지원</title>
   <meta name="description" content="턴나우 사용 안내와 문의">
-  <style>
-    :root { color-scheme: dark; font-family: -apple-system, BlinkMacSystemFont, system-ui, sans-serif; background: #111; color: #f5f5f5; }
-    * { box-sizing: border-box; }
-    body { margin: 0; line-height: 1.7; }
-    main, footer { max-width: 720px; margin: auto; padding: 0 24px; }
-    header { padding: 56px 0 32px; border-bottom: 1px solid #383838; }
-    .brand { color: #ff9c5c; font-size: 1.2rem; font-weight: 750; letter-spacing: -.04em; }
-    h1 { font-size: clamp(2rem, 7vw, 3rem); line-height: 1.2; letter-spacing: -.04em; margin: 18px 0 12px; }
-    h2 { font-size: 1.3rem; margin: 0 0 12px; }
-    p { margin: 0 0 14px; color: #d0d0d0; }
-    section { padding: 32px 0; border-bottom: 1px solid #383838; }
-    ul { padding-left: 1.25em; color: #d0d0d0; }
-    li { margin: 8px 0; }
-    a { color: #ffb27e; overflow-wrap: anywhere; }
-    a:focus-visible { outline: 2px solid #ff9c5c; outline-offset: 4px; }
-    footer { padding-top: 24px; padding-bottom: 48px; font-size: .9rem; }
-  </style>
+  <script src="legacy-language.js"></script>
+  <link rel="stylesheet" href="site.css">
 </head>
 <body>
 <main>
   <header>
-    <div class="brand">turnow</div>
+    <div class="header-bar">
+      <div class="brand">turnow</div>
+      <nav class="language-switch" aria-label="언어 선택">
+        <a href="./" lang="ko" hreflang="ko" aria-current="page">한국어</a>
+        <a href="en/" lang="en" hreflang="en">English</a>
+      </nav>
+    </div>
     <h1>턴나우 지원</h1>
     <p>아이폰을 돌려 사용하는 집중 타이머, 턴나우의 안내와 문의 페이지입니다.</p>
-    <a href="#english" lang="en">English</a>
   </header>
   <section>
     <h2>사용 안내</h2>
@@ -47,14 +37,6 @@
     <p>사용 중 문제가 생기거나 궁금한 점이 있다면 이메일로 알려 주세요. 사용 중인 iPhone 모델, iOS 버전과 문제 상황을 함께 적어 주시면 확인에 도움이 됩니다.</p>
     <a href="mailto:tak9447@gmail.com">tak9447@gmail.com</a>
   </section>
-
-<section id="english" lang="en">
-  <h2>turnow Support</h2>
-  <p>Open turnow on your iPhone and hold it upright. Turn it and hold the new position for about one second to start a 25-minute or 50-minute Pomodoro, or the stopwatch. Turn it upright again to finish.</p>
-  <p>You can change focus and break durations in Settings. The app is free and requires iOS 26 or later.</p>
-  <p>For help, email <a href="mailto:tak9447@gmail.com">tak9447@gmail.com</a>. Include your iPhone model, iOS version, and what happened.</p>
-  <a href="privacy/#english">Privacy Policy</a>
-</section>
 </main>
 <footer><a href="privacy/">개인정보 처리방침</a></footer>
 </body>
